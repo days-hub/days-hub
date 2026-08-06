@@ -1,29 +1,73 @@
 # Hi, I'm Ben 👋
 
-Computer Science graduate (Ontario Tech University, 2026) building full-stack applications with a focus on machine learning and an unreasonable enthusiasm for astronomy.
+Software developer and 2026 Ontario Tech University Computer Science graduate with enterprise development experience at Ontario Power Generation.
 
-I like working where software meets the physical world — whether that's enterprise tooling, ML pipelines, or pointing a telescope at Jupiter and trying to wring detail out of bad seeing.
+I build, test, and deploy full-stack applications using **Python/FastAPI, React/TypeScript, SQL, Docker, and automated testing**. My main project is [bortle.app](https://bortle.app), a live astronomy planning application powered by real ephemeris and weather data.
 
-## What I'm working on
+## Featured projects
 
-- 🔭 **[AstroPlanner](https://github.com/days-hub/astroplanner)** — live at **[bortle.app](https://bortle.app)** — an astronomy session planner and observing log. Computes real sky visibility from JPL ephemeris data, cross-references the hourly forecast, and answers plain-language questions through a Sky Advisor that can only speak from data the app computed, with a pytest eval suite enforcing that boundary. FastAPI + SQLAlchemy, React/TypeScript, JWT auth, deployed on a Linux VPS with Docker and automatic TLS. No signup needed — click "Try the demo."
-- 🧠 **[FocusFlow](https://github.com/days-hub/FocusFlow)** — an adaptive productivity app that learns when you're most focused. Flutter + Firebase, with an offline-first SQLite/Firestore sync layer and a K-means clustering pipeline I wrote from scratch (my contributions: the ML pipeline, offline-first architecture, and security hardening).
-- 🪐 **Exoplanet classifier** (in progress) — a detection pipeline over NASA Kepler light curves: lightkurve for ingestion, a scikit-learn KOI classifier, and a 1D CNN in PyTorch.
+### 🔭 [AstroPlanner](https://github.com/days-hub/astroplanner) — [Live demo](https://bortle.app)
 
-## Background
+A deployed astronomy session planner that helps users determine what is actually visible from their location and when it is worth observing.
 
-- 💼 Former Information Systems Technician intern at **Ontario Power Generation**, where I built Power Apps and JavaScript/VBA tooling for enterprise workflows.
-- 🎯 Interested in ML applied to astronomy — exoplanet detection and stellar classification — and in game development.
+- Computes real-time sky visibility using JPL ephemeris data through Skyfield
+- Combines astronomical calculations with hourly weather forecasts
+- Includes a grounded LLM advisor restricted to data calculated by the application
+- Uses JWT authentication, PostgreSQL, FastAPI, SQLAlchemy, React, and TypeScript
+- Runs through Docker Compose with Nginx and automatic TLS on a Linux VPS
+- Uses GitHub Actions CI for backend tests, frontend linting and builds, and Docker image validation
+- Includes a seeded demo mode with no registration required
 
-## Tech I work with
+### 🏆 [Arena Master](https://github.com/days-hub/arena-master)
 
-**Languages:** Python · TypeScript · Dart · JavaScript · Java · C# · Kotlin
-**Frameworks & tools:** FastAPI · React · Flutter · SQLAlchemy · PostgreSQL · Firebase · Docker · pytest
-**Areas:** Full-stack web · Machine learning · LLM integration · Deployment & ops · Offline-first systems
+A full-stack esports tournament management platform built with FastAPI, React, Material UI, and SQLite.
 
-## Reach me
+- Interactive bracket with click-to-record match results
+- Automatic round advancement and cross-tournament standings
+- Idempotent REST APIs for safe bracket generation
+- Discord webhook integration for live result announcements
+- Demo-data seeder and documented local setup
 
-- 📍 Ontario, Canada
-- 💼 [LinkedIn](https://www.linkedin.com/in/ben-walsh-7570aa109/)
-- 📧 [bwalsh9764@gmail.com](mailto:bwalsh9764@gmail.com)
-- 💬 Open to new-grad software engineering roles
+### 🧠 [FocusFlow](https://github.com/days-hub/FocusFlow)
+
+A cross-platform productivity application developed as a four-person capstone project using Flutter, Firebase, and SQLite.
+
+My primary contributions included:
+
+- Building a K-means clustering system from scratch to identify productive focus windows
+- Engineering session-level metrics used for personalized scheduling recommendations
+- Developing the offline-first SQLite and Firestore synchronization layer
+- Implementing Google Sign-In and contributing to security hardening
+- Collaborating through code reviews and Agile iteration
+
+## Professional experience
+
+### Ontario Power Generation
+
+Previously worked as an **Information Systems Technician intern** at OPG and was rehired for the remainder of the summer based on performance.
+
+- Collaborated within a two-developer team to deliver three Power Apps for internal business workflows
+- Built JavaScript and Office JS tooling for on-demand Word document generation
+- Helped replace a legacy VBA workflow and establish the foundation for migrating a specialized template library
+- Gathered requirements, troubleshot workflow issues, documented solutions, and supported adoption
+
+## Core technologies
+
+**Languages:** Python, TypeScript, JavaScript, Java, SQL, C#, Dart  
+**Backend:** FastAPI, SQLAlchemy, REST APIs, Node.js, pytest  
+**Frontend:** React, HTML/CSS, Material UI, Flutter  
+**Data:** PostgreSQL, MySQL, SQL Server, SQLite, Firebase Firestore  
+**Deployment:** Docker, Docker Compose, Nginx, Linux, GitHub Actions  
+**Security:** JWT, OAuth 2.0, Google Sign-In, rate limiting, input validation
+
+## What I'm looking for
+
+I'm currently pursuing **new-grad and junior software engineering opportunities** in backend, full-stack, and application development.
+
+Outside of software, I spend a lot of time learning astronomy and attempting to extract unreasonable amounts of detail from planets through an eight-inch telescope.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/ben-walsh-7570aa109/)
+- [Email](mailto:bwalsh9764@gmail.com)
+- [Live project](https://bortle.app)
