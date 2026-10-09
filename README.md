@@ -1,75 +1,129 @@
-# Hi, I'm Ben 👋
+<div align="center">
 
-Software developer and 2026 Ontario Tech University Computer Science graduate with enterprise development experience at Ontario Power Generation.
+# Ben Walsh
 
-I build, test, and deploy full-stack applications using **Python/FastAPI, Java/Spring Boot, React/TypeScript, SQL, Docker, and automated testing**. My main project is [bortle.app](https://bortle.app/), a live astronomy planning application powered by real ephemeris and weather data.
+### Software Engineer · Backend / Cloud / Full Stack
 
-## Featured projects
+Computer Science graduate building reliable software across **Python, Java, TypeScript, C#, React, AWS, Docker, and Kubernetes**.
 
-### 🔭 [AstroPlanner](https://github.com/days-hub/astroplanner) — [Live demo](https://bortle.app/)
+I like projects where product work, backend systems, performance, and deployment all meet — especially when there is a real user problem behind them.
 
-A deployed astronomy session planner that helps users determine what is actually visible from their location and when it is worth observing.
+<p>
+  <a href="https://ben.bortle.app"><img src="https://img.shields.io/badge/Portfolio-ben.bortle.app-24292f?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/ben-walsh-7570aa109/"><img src="https://img.shields.io/badge/LinkedIn-Ben_Walsh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:bwalsh9764@gmail.com"><img src="https://img.shields.io/badge/Email-bwalsh9764%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-* Computes real-time sky visibility using JPL ephemeris data through Skyfield
-* Combines astronomical calculations with hourly weather forecasts
-* Includes a grounded LLM advisor restricted to data calculated by the application
-* Uses JWT authentication, PostgreSQL, FastAPI, SQLAlchemy, React, and TypeScript
-* Runs through Docker Compose with Nginx and automatic TLS on a Linux VPS
-* Uses GitHub Actions CI for backend tests, frontend linting and builds, and Docker image validation
-* Includes a seeded demo mode with no registration required
+</div>
+
+---
+
+## Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔭 [AstroPlanner](https://github.com/days-hub/astroplanner)
+**[Live demo →](https://bortle.app)**
+
+<a href="https://bortle.app">
+  <img src="https://raw.githubusercontent.com/days-hub/astroplanner/main/docs/screenshots/dashboard.png" alt="AstroPlanner dashboard">
+</a>
+
+Full-stack astronomy session planner that combines **real ephemeris data, hourly weather, target scoring, and an AI advisor grounded in application-computed facts**.
+
+- React 19 + TypeScript frontend
+- FastAPI + SQLAlchemy + PostgreSQL backend
+- Skyfield / JPL ephemeris calculations
+- Claude-powered advisor with grounding tests
+- Docker, Kubernetes, GitHub Actions
+- Optimized full-night evaluation of 44 targets from ~0.56 s to ~0.05 s
+
+</td>
+<td width="50%" valign="top">
 
 ### 🏆 [Arena Master](https://github.com/days-hub/arena-master)
+**[Live demo →](https://arena.bortle.app)**
 
-A full-stack esports tournament management platform with a **Java/Spring Boot backend**, PostgreSQL database, and React/Material UI frontend.
+<a href="https://arena.bortle.app">
+  <img src="https://raw.githubusercontent.com/days-hub/arena-master/main/docs/screenshots/dashboard.png" alt="Arena Master dashboard">
+</a>
 
-* Rebuilt the original FastAPI backend in Java using Spring Boot and Spring Data JPA
-* Migrated persistence from SQLite to PostgreSQL with versioned Flyway database migrations
-* Designed idempotent REST APIs for bracket generation, automatic round advancement, and cross-tournament standings
-* Added Bean Validation and centralized exception handling for consistent API validation and errors
-* Includes an interactive bracket with click-to-record match results
-* Integrates Discord webhooks for live tournament result announcements
-* Runs the application and PostgreSQL database through Docker Compose
+Esports tournament platform for a Discord gaming community with **interactive brackets, player identities, standings, Discord automation, and Riot Games integration**.
+
+- React + Material UI frontend
+- Spring Boot 4 / Java 25 backend
+- PostgreSQL + Flyway
+- Discord OAuth, bot, and webhooks
+- AWS EC2 + CloudFront + CloudWatch
+- GitHub Actions deployment through OIDC + SSM
+- Python → Java rewrite verified across 71 API requests
+
+</td>
+</tr>
+</table>
+
+## More projects
+
+### 🎵 [YourMusicDepot](https://github.com/days-hub/YourMusicDepotApp)
+A C#/.NET 7 desktop application for managing a music lesson studio. Built with **WPF, MVVM, Entity Framework Core, SQL Server, repository abstractions, dependency injection, and a custom overlap-aware weekly scheduling control**.
 
 ### 🧠 [FocusFlow](https://github.com/days-hub/FocusFlow)
+Android productivity app built in a five-person capstone team using **Flutter, Firebase, SQLite, and Kotlin platform integrations**. My work included the offline-first sync layer and K-means-based focus pattern analysis.
 
-A cross-platform productivity application developed as a four-person capstone project using Flutter, Firebase, and SQLite.
+---
 
-My primary contributions included:
+## Tech I work with
 
-* Building a K-means clustering system from scratch to identify productive focus windows
-* Engineering session-level metrics used for personalized scheduling recommendations
-* Developing the offline-first SQLite and Firestore synchronization layer
-* Implementing Google Sign-In and contributing to security hardening
-* Collaborating through code reviews and Agile iteration
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript">
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+</p>
 
-## Professional experience
+<p>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111" alt="Linux">
+</p>
+
+---
+
+## Experience
 
 ### Ontario Power Generation
+**Information Systems Technician · Field Placement Internship**
 
-Previously worked as an **Information Systems Technician intern** at OPG and was rehired for the remainder of the summer based on performance.
+Worked on a three-person team delivering internal business applications for real stakeholders, including an Enbridge-partnered replacement for a legacy Excel workflow. I also modernized a VBA document-generation workflow into reusable JavaScript / Office JS tooling and regularly demoed work to users and partner stakeholders.
 
-* Collaborated within a two-developer team to deliver three Power Apps for internal business workflows
-* Built JavaScript and Office JS tooling for on-demand Word document generation
-* Helped replace a legacy VBA workflow and establish the foundation for migrating a specialized template library
-* Gathered requirements, troubleshot workflow issues, documented solutions, and supported adoption
+---
 
-## Core technologies
+## What I'm interested in
 
-**Languages:** Python, Java, TypeScript, JavaScript, SQL, C#, Dart
-**Backend:** FastAPI, Spring Boot, Spring Data JPA, SQLAlchemy, REST APIs, Node.js, pytest
-**Frontend:** React, HTML/CSS, Material UI, Flutter
-**Data:** PostgreSQL, MySQL, SQL Server, SQLite, Firebase Firestore, Flyway
-**Deployment:** Docker, Docker Compose, Nginx, Linux, GitHub Actions
-**Security:** JWT, OAuth 2.0, Google Sign-In, rate limiting, input validation
+I'm pursuing **new-grad and junior software engineering roles** where I can keep growing in backend, cloud, full-stack, and AI infrastructure work.
 
-## What I'm looking for
+I care most about building systems that are understandable, testable, observable, and useful — whether that means tracing an async ordering bug, profiling a slow computation, making a deployment safer, or polishing the user-facing path that sits on top of it.
 
-I'm currently pursuing **new-grad and junior software engineering opportunities** in backend, full-stack, and application development.
+Outside of software, I'm usually following competitive gaming or trying to squeeze unreasonable amounts of detail out of the sky with an eight-inch telescope.
 
-Outside of software, I spend a lot of time learning astronomy and attempting to extract unreasonable amounts of detail from planets through an eight-inch telescope.
+<div align="center">
 
-## Contact
+### Let's connect
 
-* [LinkedIn](https://www.linkedin.com/in/ben-walsh-7570aa109/)
-* [Email](mailto:bwalsh9764@gmail.com)
-* [Live project](https://bortle.app/)
+[Portfolio](https://ben.bortle.app) · [LinkedIn](https://www.linkedin.com/in/ben-walsh-7570aa109/) · [Email](mailto:bwalsh9764@gmail.com)
+
+</div>
