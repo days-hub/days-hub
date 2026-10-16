@@ -1,129 +1,99 @@
-<div align="center">
-
-# Ben Walsh
-
-### Software Engineer · Backend / Cloud / Full Stack
-
-Computer Science graduate building reliable software across **Python, Java, TypeScript, C#, React, AWS, Docker, and Kubernetes**.
-
-I like projects where product work, backend systems, performance, and deployment all meet — especially when there is a real user problem behind them.
-
-<p>
-  <a href="https://ben.bortle.app"><img src="https://img.shields.io/badge/Portfolio-ben.bortle.app-24292f?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/ben-walsh-7570aa109/"><img src="https://img.shields.io/badge/LinkedIn-Ben_Walsh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:bwalsh9764@gmail.com"><img src="https://img.shields.io/badge/Email-bwalsh9764%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Ben Walsh — Software Engineer. Backend, cloud and full stack.">
 </p>
 
-</div>
+<p align="center">
+  <a href="https://ben.bortle.app"><strong>Portfolio ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ben-walsh-7570aa109/"><strong>LinkedIn ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:bwalsh9764@gmail.com"><strong>Get in touch ↗</strong></a>
+</p>
 
----
+<br>
 
-## Featured work
+I'm Ben, a Computer Science graduate from Ontario Tech. I build software around things I care about: planning a night under the stars, running a gaming community, and making everyday work a little easier.
+
+I enjoy the whole path from **a useful interface to a reliable backend**—API design, data modelling, testing, performance, and getting it running in the cloud.
+
+**Ontario, Canada · Open to new-grad and junior software engineering opportunities**
+
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🔭 [AstroPlanner](https://github.com/days-hub/astroplanner)
-**[Live demo →](https://bortle.app)**
-
-<a href="https://bortle.app">
-  <img src="https://raw.githubusercontent.com/days-hub/astroplanner/main/docs/screenshots/dashboard.png" alt="AstroPlanner dashboard">
-</a>
-
-Full-stack astronomy session planner that combines **real ephemeris data, hourly weather, target scoring, and an AI advisor grounded in application-computed facts**.
-
-- React 19 + TypeScript frontend
-- FastAPI + SQLAlchemy + PostgreSQL backend
-- Skyfield / JPL ephemeris calculations
-- Claude-powered advisor with grounding tests
-- Docker, Kubernetes, GitHub Actions
-- Optimized full-night evaluation of 44 targets from ~0.56 s to ~0.05 s
-
+<h3><a href="https://github.com/days-hub/astroplanner">AstroPlanner</a></h3>
+<p><sub>ASTRONOMY · FULL STACK · APPLIED AI</sub></p>
+<a href="https://bortle.app"><img src="https://raw.githubusercontent.com/days-hub/astroplanner/main/docs/screenshots/tonight.png" width="440" alt="AstroPlanner tonight-at-a-glance view with observing conditions and celestial targets"></a>
+<p>A clearer answer to <em>“what can I see tonight?”</em> Real ephemeris calculations, hourly weather, observing windows, and a personal observation log.</p>
+<p><strong>Engineering focus:</strong> vectorized astronomy calculations and an AI advisor grounded in the app's computed facts, with grounding tests.</p>
+<p><code>Python</code> <code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code></p>
+<p><a href="https://bortle.app"><strong>Try the demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/days-hub/astroplanner">Explore the code</a></p>
 </td>
 <td width="50%" valign="top">
-
-### 🏆 [Arena Master](https://github.com/days-hub/arena-master)
-**[Live demo →](https://arena.bortle.app)**
-
-<a href="https://arena.bortle.app">
-  <img src="https://raw.githubusercontent.com/days-hub/arena-master/main/docs/screenshots/dashboard.png" alt="Arena Master dashboard">
-</a>
-
-Esports tournament platform for a Discord gaming community with **interactive brackets, player identities, standings, Discord automation, and Riot Games integration**.
-
-- React + Material UI frontend
-- Spring Boot 4 / Java 25 backend
-- PostgreSQL + Flyway
-- Discord OAuth, bot, and webhooks
-- AWS EC2 + CloudFront + CloudWatch
-- GitHub Actions deployment through OIDC + SSM
-- Python → Java rewrite verified across 71 API requests
-
+<h3><a href="https://github.com/days-hub/arena-master">Arena Master</a></h3>
+<p><sub>ESPORTS · BACKEND SYSTEMS · CLOUD</sub></p>
+<a href="https://arena.bortle.app"><img src="https://raw.githubusercontent.com/days-hub/arena-master/main/docs/screenshots/dashboard.png" width="440" alt="Arena Master dashboard with tournaments, matchups and community standings"></a>
+<p>From registration to the final bracket. An esports tournament platform with player profiles, Discord automation, and Riot Games integration.</p>
+<p><strong>Engineering focus:</strong> a Python → Java migration checked across 71 API requests, plus AWS deployments using OIDC and SSM.</p>
+<p><code>Java</code> <code>Spring Boot</code> <code>React</code> <code>PostgreSQL</code> <code>AWS</code> <code>Docker</code></p>
+<p><a href="https://arena.bortle.app"><strong>Browse the demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/days-hub/arena-master">Explore the code</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/days-hub/YourMusicDepotApp">YourMusicDepot</a></h3>
+<p><sub>DESKTOP · SCHEDULING · DATA</sub></p>
+<p>A music studio management app for lessons, students, instructors, and payments. Includes a custom weekly scheduler that lays out overlapping appointments.</p>
+<p><code>C#</code> <code>.NET</code> <code>WPF / MVVM</code> <code>EF Core</code> <code>SQL Server</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/days-hub/FocusFlow">FocusFlow</a></h3>
+<p><sub>MOBILE · OFFLINE FIRST · TEAM PROJECT</sub></p>
+<p>An adaptive Android productivity app built in a five-person team. My work included SQLite ↔ Firestore sync and K-means analysis of focus patterns.</p>
+<p><code>Dart</code> <code>Flutter</code> <code>Firebase</code> <code>SQLite</code> <code>Kotlin integrations</code></p>
 </td>
 </tr>
 </table>
 
-## More projects
+## My toolbox
 
-### 🎵 [YourMusicDepot](https://github.com/days-hub/YourMusicDepotApp)
-A C#/.NET 7 desktop application for managing a music lesson studio. Built with **WPF, MVVM, Entity Framework Core, SQL Server, repository abstractions, dependency injection, and a custom overlap-aware weekly scheduling control**.
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | Python · Java · C# · TypeScript · JavaScript · SQL · Dart |
+| **Backend & data** | Spring Boot · FastAPI · Flask · .NET · PostgreSQL · SQL Server · SQLite · MongoDB |
+| **Web & apps** | React · HTML/CSS · Material UI · Flutter · WPF · Firebase |
+| **Cloud & delivery** | AWS · Docker · GitHub Actions · Linux · Bash · Kubernetes (local kind cluster) |
+| **Quality & design** | pytest · API contract testing · OAuth 2.0 / JWT · Database migrations · Observability |
 
-### 🧠 [FocusFlow](https://github.com/days-hub/FocusFlow)
-Android productivity app built in a five-person capstone team using **Flutter, Firebase, SQLite, and Kotlin platform integrations**. My work included the offline-first sync layer and K-means-based focus pattern analysis.
+<details>
+<summary><strong>A closer look at the tools behind the projects</strong></summary>
 
----
+<br>
 
-## Tech I work with
+- **AWS:** EC2, CloudFront, CloudWatch, IAM/OIDC, Systems Manager, and SNS.
+- **Persistence:** Spring Data JPA, SQLAlchemy, Entity Framework Core, Flyway, Alembic, and Firestore.
+- **Application tooling:** Spring Security, Pydantic, Vite, nginx, Docker Compose, and Git.
+- **Scientific & AI work:** Skyfield/JPL ephemerides, NumPy, Jupyter, K-means clustering, and Claude integration with grounding tests.
+- **Business automation:** Power Apps, Power Automate, JavaScript/Office JS, and VBA.
+- **Additional foundations:** C++ coursework, sockets/TCP/IP, concurrency, and systems programming.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111" alt="JavaScript">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-</p>
+</details>
 
-<p>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-</p>
+## Building for real people
 
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111" alt="Linux">
-</p>
+At **Ontario Power Generation**, I worked on a three-person team delivering internal business applications, including an Enbridge-partnered replacement for an Excel workflow. I also modernized VBA document generation into reusable **JavaScript / Office JS** tooling, with regular demos and feedback from the people using it.
+
+That experience still shapes how I build: **understand the problem, make the system testable, and keep listening to its users.**
 
 ---
 
-## Experience
-
-### Ontario Power Generation
-**Information Systems Technician · Field Placement Internship**
-
-Worked on a three-person team delivering internal business applications for real stakeholders, including an Enbridge-partnered replacement for a legacy Excel workflow. I also modernized a VBA document-generation workflow into reusable JavaScript / Office JS tooling and regularly demoed work to users and partner stakeholders.
-
----
-
-## What I'm interested in
-
-I'm pursuing **new-grad and junior software engineering roles** where I can keep growing in backend, cloud, full-stack, and AI infrastructure work.
-
-I care most about building systems that are understandable, testable, observable, and useful — whether that means tracing an async ordering bug, profiling a slow computation, making a deployment safer, or polishing the user-facing path that sits on top of it.
-
-Outside of software, I'm usually following competitive gaming or trying to squeeze unreasonable amounts of detail out of the sky with an eight-inch telescope.
-
-<div align="center">
-
-### Let's connect
-
-[Portfolio](https://ben.bortle.app) · [LinkedIn](https://www.linkedin.com/in/ben-walsh-7570aa109/) · [Email](mailto:bwalsh9764@gmail.com)
-
-</div>
+<p align="center">
+  <sub>Off the keyboard: competitive gaming, music, and an eight-inch telescope pointed at the sky.</sub>
+</p>
+<p align="center">
+  <a href="https://ben.bortle.app">ben.bortle.app</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:bwalsh9764@gmail.com">Let's build something useful.</a>
+</p>
